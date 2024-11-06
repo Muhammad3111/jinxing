@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ESNext" /* So‘nggi ES versiyasiga kompilyatsiya qilish */,
+    "module": "CommonJS" /* Modullar uchun CommonJS formatidan foydalanish */,
+    "rootDir": "./src" /* Manba kodlarini o‘z ichiga olgan katalog */,
+    "outDir": "./dist" /* Chiqish fayllari uchun katalog */,
+    "strict": true /* Barcha qat'iy tip tekshiruvlarini yoqish */,
+    "esModuleInterop": true /* CommonJS modullarini import qilishni yengillashtirish */,
+    "forceConsistentCasingInFileNames": true /* Fayl nomlaridagi harflar mos kelishini tekshirish */,
+    "skipLibCheck": true /* Kutubxona fayllarini tekshirishni o'tkazib yuborish */,
+    "resolveJsonModule": true /* JSON fayllarini import qilishga ruxsat berish */,
+    "allowSyntheticDefaultImports": true /* Default eksport bo‘lmagan modullar uchun import qilishga ruxsat berish */,
+    "moduleResolution": "node" /* Node.js modul rezolyutsiyasidan foydalanish */,
+    "sourceMap": true /* Source map fayllarni yaratish */,
+    "declaration": true /* Typing (d.ts) fayllarni yaratish */,
+    "declarationMap": true /* Typing fayllar uchun source maplar yaratish */,
+    "incremental": true /* Inkremenal kompilyatsiyani yoqish */,
+    "isolatedModules": true /* Har bir faylni izolyatsiyalangan holda kompilyatsiya qilish */,
+    "strictNullChecks": true /* Null va undefined ni qat'iy tekshirish */,
+    "noImplicitAny": true /* Tipi aniqlanmagan har qanday o‘zgaruvchi uchun xatolik chiqarish */,
+    "noImplicitThis": true /* 'this' tipi aniqlanmagan joylarda xatolik chiqarish */,
+    "alwaysStrict": true /* Har doim 'use strict' ni yoqish */,
+    "noFallthroughCasesInSwitch": true /* Switch-case bloklarida kerakli xatoliklarni tekshirish */,
+    "useUnknownInCatchVariables": true /* Catch bloklaridagi o‘zgaruvchilarni 'unknown' tipi bilan aniqlash */,
+    "downlevelIteration": true /* Zamonaviy iteratsiya usullarini eski versiyalarga moslashtirish */
+  },
+  "include": [
+    "src/**/*.ts"
+  ] /* Yozilgan TypeScript fayllarni o‘z ichiga oladi */,
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] /* Node_modules va dist papkalarini e’tibordan chetda qoldirish */
+}
